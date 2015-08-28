@@ -65,12 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\indexApp.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\styles.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
+    <Content Include="crtls\index.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="html\indexContent.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -877,7 +881,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="html\" />
     <Folder Include="shared\html\" />
     <Folder Include="shared\services\" />
   </ItemGroup>
