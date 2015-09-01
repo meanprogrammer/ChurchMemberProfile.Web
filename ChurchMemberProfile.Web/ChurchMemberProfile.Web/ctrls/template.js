@@ -1,16 +1,14 @@
 ﻿angular.module('vpApp').controller('TemplateCtrl', ['$scope', '$modal',
     function ($scope, $modal) {
         
-        $scope.openModal = function (id) {
+        $scope.openModal = function () {
             var modalInstance = $modal.open({
                 animation: true,
-                templateUrl: 'activityUserModal.html',
-                controller: 'ActivityUserModalInstanceCtrl',
+                templateUrl: 'createTemplateModal.html',
+                controller: 'CreateTemplateModalInstanceCtrl',
                 size: 'md',
                 resolve: {
-                    modalId: function () {
-                        return id;
-                    }
+                    
                 }
             });
 
@@ -24,3 +22,17 @@
 
     }
 ]);
+
+
+angular.module('vpApp').controller('CreateTemplateModalInstanceCtrl', function ($scope, $modalInstance) {
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss();
+    };
+
+    $scope.load = function () {
+        
+    };
+
+    $scope.load();
+});
