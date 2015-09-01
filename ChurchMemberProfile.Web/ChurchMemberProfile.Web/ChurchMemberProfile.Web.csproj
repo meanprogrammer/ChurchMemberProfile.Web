@@ -72,8 +72,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\ui-bootstrap-csp.css" />
-    <Content Include="crtls\index.js" />
+    <Content Include="ctrls\index.js" />
+    <Content Include="ctrls\template.js" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="html\createTemplate.html" />
     <Content Include="html\indexContent.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
@@ -873,6 +875,7 @@
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="shared\nav\nav.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\version.json" />
