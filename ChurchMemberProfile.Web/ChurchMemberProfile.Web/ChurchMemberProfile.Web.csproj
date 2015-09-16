@@ -876,6 +876,7 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="shared\nav\nav.html" />
+    <Content Include="shared\services\resourceService.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\version.json" />
@@ -885,7 +886,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="shared\html\" />
-    <Folder Include="shared\services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
